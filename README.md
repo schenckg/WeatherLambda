@@ -36,11 +36,8 @@ When used from an Amazon Connect Call Flow, the results would be accessed as the
 
 Links
 -----
-Using AWS Lambda Functions with Amazon Connect
-https://docs.aws.amazon.com/connect/latest/adminguide/connect-lambda-functions.html
+Using AWS Lambda Functions with Amazon Connect:  https://docs.aws.amazon.com/connect/latest/adminguide/connect-lambda-functions.html
 
-Open Weather Map
-https://openweathermap.org/
+Open Weather Map:  https://openweathermap.org/
 
-Open Weather Map Current Weather Data API used by this code:
-https://openweathermap.org/current
+Open Weather Map Current Weather Data API used by this code:  https://openweathermap.org/current
