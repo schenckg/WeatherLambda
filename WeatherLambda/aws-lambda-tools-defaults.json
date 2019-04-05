@@ -1,21 +1,20 @@
-
 {
-    "Information" : [
-        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
-        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
-        "dotnet lambda help",
-        "All the command line options for the Lambda command can be specified in this file."
-    ],
-    "profile"     : "default",
-    "region"      : "us-east-1",
-    "configuration" : "Release",
-    "framework"     : "netcoreapp2.1",
-    "function-runtime" : "dotnetcore2.1",
-    "function-memory-size" : 128,
-    "function-timeout"     : 30,
-    "function-handler"     : "WeatherLambda::WeatherLambda.Function::FunctionHandler",
-    "function-name"        : "WeatherLambda",
-    "function-role"        : "arn:aws:iam::479835525416:role/lambda_exec_WeatherLambda",
-    "tracing-mode"         : "PassThrough",
-    "environment-variables" : "\"OpenWeatherAppID\"=\"29f1b5ab47d3580fe7a93f7fa2a21cb2\""
+  "Information": [
+    "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+    "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+    "dotnet lambda help",
+    "All the command line options for the Lambda command can be specified in this file."
+  ],
+  "profile": "default",
+  "region": "us-east-1",
+  "configuration": "Release",
+  "framework": "netcoreapp2.1",
+  "function-runtime": "dotnetcore2.1",
+  "function-memory-size": 128,
+  "function-timeout": 30,
+  "function-handler": "WeatherLambda::WeatherLambda.Function::FunctionHandler",
+  "function-name": "WeatherLambda",
+  "function-role": "arn:aws:iam::479835525416:role/lambda_exec_WeatherLambda",
+  "tracing-mode": "PassThrough",
+  "environment-variables": "\"OpenWeatherAppID\"=\"OpenWeatherAppID must be set in the WeatherForm.Properties.Settings.settings with your own AppID.  To get an ID, sign up at https://openweathermap.org.\""
 }
