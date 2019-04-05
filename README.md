@@ -18,7 +18,7 @@ When using the Forms test application, you'll need to configure the WeatherForm.
 
 This function is intended to be called from Amazon Connect it must be accept the standard JSON request data passed by Amazon Connect call flow when a Lambda function is invoked.
 
-The function expects input in JSON format, at a minimum, as shown below.
+The function expects input in JSON format with a ZipCode property:
 {
    "Details": {
       "Parameters": {
@@ -27,7 +27,7 @@ The function expects input in JSON format, at a minimum, as shown below.
    }
 }
 
-The function returns a Connect compatible JSON formatted result containing a single property named message:
+The function returns a JSON format result containing a single property named message:
 {
    "message": "\"The weather in New York is clear with a temperature of 57 degrees.\""
 }
