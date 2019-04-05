@@ -25,7 +25,8 @@ namespace WeatherForm.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("29f1b5ab47d3580fe7a93f7fa2a21cb2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("OpenWeatherAppID must be set in the WeatherForm.Properties.Settings.settings with" +
+            " your own AppID.  To get an ID, sign up at https://openweathermap.org.")]
         public string OpenWeatherAppID {
             get {
                 return ((string)(this["OpenWeatherAppID"]));
