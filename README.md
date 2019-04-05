@@ -29,7 +29,7 @@ The function expects input in JSON format with a ZipCode property:
 
 The function returns a JSON format result containing a single property named message:
 {
-   "message": "\"The weather in New York is clear with a temperature of 57 degrees.\""
+   "message": "\\"The weather in New York is clear with a temperature of 57 degrees.\\""
 }
 
 When used from an Amazon Connect Call Flow, the results would be accessed as the External Attribute "message".
