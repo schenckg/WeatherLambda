@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeatherForm.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OpenWeatherAppID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">29f1b5ab47d3580fe7a93f7fa2a21cb2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
