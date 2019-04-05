@@ -4,7 +4,7 @@ An Amazon AWS Lambda Function which uses the openweathermap.org's Current Weathe
 
 You will need to register at openweathermap.org to get a free account App ID that you'll need to use with this code.
 
-This Visual Studio 2017 project contains three projects:
+This Visual Studio 2017 solution contains three projects:
 - WeatherLibrary
   A .NET Standard library written in C# that handles open weather map requests.
 - WeatherLibraryForm
